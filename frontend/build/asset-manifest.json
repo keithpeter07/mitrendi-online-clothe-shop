@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.17d11149.css",
+    "main.js": "/static/js/main.97268caf.js",
+    "static/media/homebgmb.png": "/static/media/homebgmb.8f125ec3034265dfdd1c.png",
+    "static/media/homebg.png": "/static/media/homebg.413a98db24f03c41590a.png",
+    "static/media/wallpoet-all-400-normal.woff": "/static/media/wallpoet-all-400-normal.219c42745f495dfd1cb2.woff",
+    "static/media/wallpoet-latin-400-normal.woff2": "/static/media/wallpoet-latin-400-normal.3e835a9c2719777c5fd3.woff2",
+    "index.html": "/index.html",
+    "main.17d11149.css.map": "/static/css/main.17d11149.css.map",
+    "main.97268caf.js.map": "/static/js/main.97268caf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17d11149.css",
+    "static/js/main.97268caf.js"
+  ]
+}

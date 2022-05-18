@@ -1,0 +1,11 @@
+{
+    "SERVER_NORM" : "http://localhost:9090/api/shop",
+    "UPSPLASH" : "https://images.unsplash.com/",
+    "SERVER_IMAGES" : "http://localhost:9090/api/images",
+    "SERVER_AUTH" : "http://localhost:9090/api/auth",
+    "SERVER_ORDER" : "http://localhost:9090/api/order",
+    "SERVER_SUPER" : "http://localhost:9090/api/super",
+    "SERVER_EXTRAS" : "http://localhost:9090/api/extras",
+    "SERVER_STATIC" : "http://localhost:9090/itemImages/",
+    "SERVER_WEB_SOCKET" : "http://localhost:9091"
+}
