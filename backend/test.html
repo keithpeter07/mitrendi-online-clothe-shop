@@ -1,0 +1,43 @@
+<html>
+    <style>
+        .action_name:hover{
+            transform: scale(102%);
+        }
+        .action_name:focus{
+            transform: scale(102%);
+        }
+        .action_name:active{
+            transform: scale(99%);
+        }
+    </style>
+    <script>
+        const changePassword = () => {
+            window.location.replace('http://localhost:9090/api/auth/change_password')
+        }
+    </script>
+    <body style="margin: auto; padding: 10rem; padding-top: 4rem; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; background-color: #b9b9b9;">
+        <div style="margin: 0; display: flex; justify-content: center; align-items: center; background-color: white; padding: 3rem; border-radius: 10px; border: 1px solid black">
+            <div style="margin: auto;">
+
+                <div>
+                    <div style="text-align: center; font-size: 1.7rem; font-weight: 600; color: #252525">MITRENDI</div>
+                    <div style="text-align: center; font-size: .7rem; margin-top: -.5rem; letter-spacing: .52rem; padding-left: .52rem">WARDROBE</div>
+                </div>
+
+                <div style="margin-top: 3rem; text-align: left; font-size: 2rem; color: #474747;   padding-left: .8rem;">Hi ${name}</div><br/>
+
+                <div style=" margin-top: -.7rem; font-size: .95rem; color: #474747;   padding-left: .7rem; text-align: left;">We have recieved a request to change your password. If this was not you, simply ignore this email</div>
+
+                <div style=" margin-top: 2rem; margin-bottom: .7rem;  padding-left: .7rem;  color: #474747; text-align: left; font-size: .95rem">Click below to change your password</div><br/> 
+
+                <div style="width: 100%; text-align: center">
+                    <button onclick=changePassword() class="action_name" style="width: fit-content; padding: .6rem; padding-left: .9rem; padding-right: .9rem; margin-left: .5rem; margin-left: .5rem; color: white; background-color: #000055; border: 1px solid white; border-radius: 10px;" >
+                        CHANGE PASSWORD
+                    </button>
+                </div>
+
+
+            </div>
+        </div>
+    </body>
+</html>
